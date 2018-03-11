@@ -1,0 +1,9 @@
+<h1 class="headerimg"> Welcome to Raffle Demo!</h1><br>
+<div align="center">
+<img src="images/image.png" border="0">
+</div><br>
+<?php include("includes/cbox.php");?>
+<div class="widget">
+<p><?php include("includes/widget.php");?></p>
+</div>
+<br>

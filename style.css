@@ -1,0 +1,154 @@
+body {
+margin:0;
+padding:0;
+background-image:url('images/bg.png');
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 17px;
+}
+
+#wrapper {
+width: 700px;
+margin: 0 auto;
+}
+
+h1{
+background-color: #3179ab;
+background-image: url(images/bg.png);
+background-repeat:repeat-x;
+font-size:18px;
+line-height:35px;
+padding-left:10px;
+}
+
+h1.headerimg { 
+color: #ffffff;
+background-position: 0px 3px; 
+}
+
+p{
+text-align:center;
+}
+
+p.sitetitle {
+height: 94px;
+width: 342px;
+background-repeat: no-repeat;
+background-image: url(images/logo.png);
+ margin-left: auto;
+margin-right: auto;
+}
+
+/****
+Remove the comments surrounding this class, 
+if you want a text logo instead of an image.
+And make sure to put comments around the
+p.sitetitle above, Or just Delete it.
+
+p.sitetitle {
+color: #ffffff;
+font-size: 30px;
+text-align: center;
+}
+
+****/
+
+#subtitle {
+color: #d8d8d8;
+font-size: 17px;
+text-align: center;
+}
+
+p .navigation {
+list-style-type:none;
+margin:0;
+overflow:hidden;
+padding-top:6px;
+padding-bottom:6px;
+}
+
+#navigation {
+text-align: center;
+}
+
+#navigation a {
+display:inline;
+width:60px;
+text-decoration:none;
+padding:4px 5px;
+color: #d8d8d8;
+}
+
+#navigation a .top {
+width: 50px;
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+text-align:center;
+}
+
+#navigation a:hover,a:active {
+background-color:#5F5A59;
+color:#ffffff;
+text-decoration:none;
+}
+
+a#select { 
+background-color:#5F5A59;
+color: white;
+}
+
+a {
+text-decoration: none;
+color: #d8d8d8;
+}
+a:hover {
+text-decoration: underline;
+}
+
+#content {
+padding: 0px 13px;
+font-size: 12px;
+background-color: white;
+border: 3px solid #c0c0c0;
+padding: 10px; 
+color: black; 
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px; 
+}
+
+#widget {
+margin-left:auto;
+margin-right:auto;
+width:563px
+}
+
+#widget img {
+padding-left: 10px;
+padding-top: 5px;
+}
+
+/* for the admin panel style
+#saveform {
+
+}
+**/
+
+#bottomlinks {
+padding: 6px;
+text-decoration: none;
+color: #808080;
+text-align:center;
+}
+
+#bottomlinks a {
+color: #808080;
+}
+
+#footer
+{
+padding-top:10px;
+text-align: center;
+color:#d8d8d8;
+}
